@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        position: relative;
+        width: 640px;
+        height: 360px;
+      }
+      .video {
+        width: 100%;
+      }
+
+      .controle {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .btn {
+        position: relative;
+        width: 40px;
+        padding: 5px;
+        margin: 0 -2px;
+        top: 100%;
+        transform: translatey(-100%);
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video" src="assets/videos/video.mp4"></video>
+
+      <div class="controle">
+        <img class="btn" src="assets/images/decrease.svg" />
+        <img class="btn" src="assets/images/forward_10.svg" />
+        <img class="btn" src="assets/images/replay_10.svg" />
+        <img class="btn" src="assets/images/increase.svg" />
+        <img class="btn" src="assets/images/pause.svg" />
+        <img class="btn" src="assets/images/play.svg" />
+        <img class="btn" src="assets/images/stop.svg" />
+      </div>
+    </div>
+
+    <!-- AULA 04 -->
+    <!--     
+    <video
+      width="540px"
+      controls
+      autoplay
+      muted
+      loop
+      src="assets/videodemo.mp4"
+      poster=""
+      preload="metadata"
+    ></video> -->
+
+    <!-- ======== AULA 01 E 02 ================= -->
+
+    <!-- <img id="like" src="images/legal.jpg" alt="" /> -->
+
+    <!-- <ul id="lista" data-n="25"></ul> -->
+    <script src="script.js"></script>
+  </body>
+</html>
